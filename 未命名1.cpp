@@ -136,6 +136,7 @@ ostream &operator<<(ostream &out, const A &a){
 }
 
 int main(){
+	cout << " jjjjj" << endl; 
     shared_ptr p = make_shared();
     p->x = 3, p->y=4;
     cout << *p <<endl;
